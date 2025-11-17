@@ -6,47 +6,46 @@ type Skill = { name: string; level: number };
 const skills: Skill[] = [
   { name: 'Product Strategy', level: 90 },
   { name: 'Payments Architecture', level: 88 },
-  { name: 'UX / UI Design', level: 92 },
-  { name: 'Data-driven Roadmapping', level: 85 },
+  { name: 'Stablecoin Systems', level: 92 },
+  { name: 'Data Analytics', level: 85 },
   { name: 'API Product & Integrations', level: 86 },
-  { name: 'Regulatory & Compliance', level: 78 },
+  { name: 'Regulatory & Compliance', level: 80 },
   { name: 'Stakeholder Management', level: 90 },
-  { name: 'A/B Testing & CRO', level: 80 },
-  { name: 'Data Science & AI', level: 75 },
+  { name: 'B2B Partnerships', level: 80 },
 ];
 
 const timeline = [
   {
-    year: '2021',
-    role: 'Senior Product Manager — Cross-border Payments',
-    company: 'Fintech X',
+    year: '2020',
+    role: 'Product Manager — Cross-border Payments',
+    company: 'Patricia Technologies',
     bullets: [
-      'Owned API product for payouts and collections across 8 countries.',
-      'Reduced settlement time by 60% via multi-rail orchestration.',
-    ],
-  },
-  {
-    year: '2022',
-    role: 'Lead PM — Wallet & On/Off ramps',
-    company: 'Fintech Y',
-    bullets: [
-      'Launched fiat on/off ramps across 3 corridors increasing volume by 4x.',
-      'Designed KYC flow with 40% improvement in completion rates.',
+      'Managed API product for payouts and collections across emerging markets.',
+      'Integrated stablecoin settlement resulting in 25% lower costs',
     ],
   },
   {
     year: '2023',
-    role: 'PM — Crypto Payments & Stablecoin Integration',
-    company: 'Payments Z',
+    role: 'Founding PM — Crypto Wallet & On/Off ramps',
+    company: 'Furex Technologies Limited',
     bullets: [
-      'Integrated stablecoin settlement resulting in 25% lower costs.',
-      'Owned merchant SDK and drove 150 new merchant integrations.',
+      'Launched fiat on/off ramps and gamification features increasing volume by 4x.',
+      'Designed KYC flow with 40% improvement in completion rates.',
     ],
   },
   {
     year: '2024',
-    role: 'Product Manager — Infrastructure & B2B',
-    company: 'Startup A',
+    role: 'Product Owner/Lead — Infrastructure & B2B',
+    company: 'Airvend Payment Service Limited',
+    bullets: [
+      'Built B2B payments MVP and API sandbox used by pilot partners.',
+      'Owned merchant SDK and drove new merchant integrations.',
+    ],
+  },
+  {
+    year: '2025',
+    role: 'Senior Product Manager — Infrastructure & B2B',
+    company: 'Ruby Technologies Limited',
     bullets: [
       'Built B2B payments MVP and API sandbox used by 10 pilot partners.',
       'Led cross-functional team of designers, engineers, and compliance.',
@@ -55,7 +54,7 @@ const timeline = [
   {
     year: '2025',
     role: 'PM — Scaling Global Corridors',
-    company: 'Your Current Project',
+    company: 'My Other Projects',
     bullets: [
       'Defining roadmap for Africa ↔ UK/EU/US/China corridors.',
       'Running go-to-market experiments and pricing for B2B customers.',
@@ -127,28 +126,8 @@ const projects = [
       'Merchant activation rates improved by 65%.',
     ],
     takeaways: 'Developer experience equals product adoption in B2B payments.',
-  },
-  {
-    id: 'fraud_ml',
-    title: 'Transaction Analytics & Fraud Detection (DS/ML)',
-    subtitle: 'Data science project applying ML to payments',
-    role: 'Data Science/Product Lead',
-    period: '6 months',
-    problem: 'High false-positive fraud rates and limited visibility into transaction patterns.',
-    approach:
-      'Built feature pipelines, engineered transaction-level features, and trained a supervised model to score fraud risk. Collaborated with product and engineering to operationalize scoring into the payments flow.',
-    responsibilities: [
-      'Designed the ML problem and success metrics.',
-      'Worked with engineers to deploy model endpoints and monitoring.',
-      'Translated model outputs into product actions (risk rules, review queues).',
-    ],
-    impact: [
-      'Reduced false positives by 38% and improved review efficiency.',
-      'Enabled data-driven product changes that decreased fraud losses by 12%.',
-    ],
-    takeaways: 'ML is most valuable when tightly coupled to product workflows and monitored continuously.',
-  },
-];
+  }
+;
 
 const process = [
   { step: 'Discovery', desc: 'Problem interviews, market research, data analysis, stakeholder alignment.' },

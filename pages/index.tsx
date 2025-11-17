@@ -206,10 +206,10 @@ export default function Home() {
         <section id="about" className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2 bg-white p-6 rounded shadow">
             <h3 className="text-lg font-semibold">About</h3>
-            <p className="mt-3 text-sky-700">I blend a designer's attention to detail with a product manager's strategic rigor. In the last 5 years I've shipped payments infrastructure, consumer wallets, merchant SDKs, and integrations that moved money across borders. I own outcomes — not tasks — and I work closely with engineers and designers to deliver reliable, delightful products.</p>
+            <p className="mt-3 text-sky-700">I blend a product manager’s strategic rigor with a strong focus on API-driven development and data-informed decision making. Over the last 5 years, I’ve shipped payments infrastructure, consumer wallets, merchant SDKs, and integrations that move money across borders. I focus on outcomes, not tasks, partnering closely with engineers to deliver reliable, delightful products. I leverage data and analytics to optimize experiences, build dashboards that turn insights into action, and create products that are not only functional but smarter, scalable, and impactful.</p>
 
             <div className="mt-6">
-              <h4 className="font-medium">Core contributions</h4>
+              <h4 className="font-medium">Core Contributions</h4>
               <ul className="list-disc ml-5 mt-2 text-sky-700 space-y-1">
                 <li>Product ownership for API-first payments platforms.</li>
                 <li>End-to-end launch of wallet & KYC experiences.</li>
@@ -220,7 +220,7 @@ export default function Home() {
           </div>
 
           <aside className="bg-white p-6 rounded shadow">
-            <h4 className="text-sm font-medium">Skills & proficiency</h4>
+            <h4 className="text-sm font-medium">Skills</h4>
             <div className="mt-3 space-y-3">
               {skills.map((s) => (
                 <div key={s.name}>
@@ -235,7 +235,7 @@ export default function Home() {
         </section>
 
         <section className="mt-12">
-          <h3 className="text-lg font-semibold">Career timeline</h3>
+          <h3 className="text-lg font-semibold">Career Timeline</h3>
           <div className="mt-6 space-y-6">
             {timeline.map((t) => (
               <div key={t.year} className="bg-white p-4 rounded shadow">
@@ -254,7 +254,7 @@ export default function Home() {
         </section>
 
         <section id="projects" className="mt-12">
-          <h3 className="text-lg font-semibold">Selected case studies</h3>
+          <h3 className="text-lg font-semibold">Selected Case Studies</h3>
           <div className="mt-6 grid md:grid-cols-3 gap-6">
             {projects.map((p) => (
               <article key={p.id} className="bg-white rounded shadow p-4">
@@ -280,7 +280,7 @@ export default function Home() {
         </section>
 
         <section id="process" className="mt-12 bg-white p-6 rounded shadow">
-          <h3 className="text-lg font-semibold">My product process</h3>
+          <h3 className="text-lg font-semibold">My Product Process</h3>
           <p className="mt-2 text-sky-700">A lightweight, outcomes-driven structure that balances discovery, speed, and compliance in payments products.</p>
           <div className="mt-4 grid md:grid-cols-3 gap-4">
             {process.map((step) => (
@@ -292,9 +292,9 @@ export default function Home() {
           </div>
 
           <div className="mt-6">
-            <h4 className="font-medium">Tools I use</h4>
+            <h4 className="font-medium">Tools I Use</h4>
             <div className="mt-3 flex flex-wrap gap-2">
-              {['Figma','Jira','Notion','Postman','Amplitude','Mixpanel','GitHub','Looker'].map(t => (
+              {['Figma','Jira','Notion','Postman','MySQL Workbench','Mixpanel','GitHub','Jupyter Labs', 'Metabase'].map(t => (
                 <span key={t} className="px-3 py-1 text-sm border rounded">{t}</span>
               ))}
             </div>
@@ -313,7 +313,7 @@ export default function Home() {
 
           <div className="bg-white p-6 rounded shadow">
             <h3 className="text-lg font-semibold">Contact</h3>
-            <p className="mt-3 text-sky-700">Let’s talk about product, payments, or design. I’m open for roles, consulting, and partnerships.</p>
+            <p className="mt-3 text-sky-700">Let’s talk about product, payments, or data. I’m open for roles, consulting, and partnerships.</p>
             <div className="mt-4">
               <a className="block text-sky-700" href={`mailto:${profile.email}`}>{profile.email}</a>
               <p className="text-sm text-sky-500 mt-2">Or connect on LinkedIn</p>

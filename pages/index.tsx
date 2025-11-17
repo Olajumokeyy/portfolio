@@ -125,9 +125,9 @@ const projects = [
       'Integration time reduced from 5 days to 90 minutes on average.',
       'Merchant activation rates improved by 65%.',
     ],
-    takeaways: 'Developer experience equals product adoption in B2B payments.',
-  }
-;
+    takeaways: 'Developer experience equals product adoption in B2B payments.'
+  },
+];
 
 const process = [
   { step: 'Discovery', desc: 'Problem interviews, market research, data analysis, stakeholder alignment.' },
